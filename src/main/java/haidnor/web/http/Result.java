@@ -37,6 +37,8 @@ public class Result<T> {
      */
     private T data;
 
+    public Result() {
+    }
 
     private Result(Integer code, String message, T data, String stack) {
         this.message = message;
